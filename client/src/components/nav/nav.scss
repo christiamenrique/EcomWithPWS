@@ -1,0 +1,71 @@
+.navbar {
+  width: 100%;
+}
+
+.fullLogo {
+  color: white;
+}
+.fullLogo:hover {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa-store-alt:before {
+  margin-left: 60px;
+}
+
+.logo {
+  font-style: italic;
+}
+
+.header {
+  &__nav-button {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    @media screen and (min-width: 1030px) {
+      padding: 0 20px;
+      margin: 0 10px;
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: 1.3;
+    }
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  &__nav-list {
+    @media screen and (min-width: 992px) {
+      padding-left: 200px;
+    }
+  }
+}
+
+.category {
+  border-radius: 15px;
+  background-color: white;
+  height: 40px;
+  width: 120px;
+}
+
+.priceRange {
+  border-radius: 15px;
+  background-color: white;
+  height: 40px;
+  width: 120px;
+  margin-left: 50px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}

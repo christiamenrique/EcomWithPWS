@@ -1,0 +1,70 @@
+{
+  "name": "ecom-project",
+  "version": "0.1.0",
+  "description": "The ecommerce site is narrowly scoped. By the end of the program, students will have completed that includes ● Home page with slider images ● Product page that allows the user to filter by product type and price ● Contact page with form ● Footer with social media links (can link to students’ pages) ● Backend API server and database server ● Admin site for managing products and viewing contact requests ● Responsive pages for various device types ● Accessibility and security. A summary of work accomplished in the first two phases follows: Phase I: I build static site with HTML, CSS, Bootstrap & jQuery. The site was mocked up in code Phase II: I created functional products page using React. Data was placed directly in state at this point since I hadn’t built persistent data stores at this point. In Phases III and IV, a MYSQL database will be designed and deployed on desktops to accommodate the ecommerce database. The ecommerce database will be comprised of 3 tables, storing information product, pricing, and contacts. With the MYSQL database designed, deployed and tested, students will construct and api server using nodejs, refactor their product page from Stage II, and integrate their webpages, api server and database to meet a set of requirements.",
+  "main": "server.js",
+  "test": "test",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "author": "Christiam Hernandez",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "chai-http": "^4.3.0",
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "http-server": "^0.11.1",
+    "if-env": "^1.0.4",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiamenrique/new_react_ecom.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/christiamenrique/new_react_ecom/issues"
+  },
+  "homepage": "https://github.com/christiamenrique/new_react_ecom#readme"
+}

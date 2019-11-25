@@ -1,0 +1,50 @@
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 11;
+}
+
+.imgText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+p {
+  font-size: 0.95em;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-item {
+  min-height: calc(100vh - 120px);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: static;
+}
+
+.slide-1 {
+  background-image: url("./img/firstForHome.jpg");
+}
+
+.slide-2 {
+  background-image: url("./img/secondImage.jpeg");
+}
+
+.slide-3 {
+  background-image: url("./img/lastImage.jpeg");
+}
