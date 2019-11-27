@@ -21,6 +21,11 @@
             "src": "/icons/android-icon-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
+        },
+        {
+            "src": "/icons/apple-icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ],
 
