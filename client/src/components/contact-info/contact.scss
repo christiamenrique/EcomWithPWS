@@ -13,10 +13,6 @@ form {
 form fieldset {
   width: 75%;
   margin: 0 auto;
-
-  @media screen and (min-width: 768px) {
-    width: 50%;
-  }
 }
 
 form p {
@@ -26,18 +22,6 @@ form p {
 label {
   display: block;
   margin-bottom: 5px;
-}
-
-em.error {
-  margin-left: 5px;
-  padding: 2px 4px;
-  background-color: red;
-  color: white;
-  border-radius: 2px;
-}
-
-.has.error {
-  background-color: yellow;
 }
 
 .form-dislpay {
@@ -84,14 +68,5 @@ label {
     width: 100%;
     text-align: center;
     border-radius: 0.8rem;
-  }
-}
-
-@media (max-width: 414px) {
-  form {
-    text-align: center;
-    margin: 10px auto;
-    line-height: 1.2;
-    width: auto;
   }
 }

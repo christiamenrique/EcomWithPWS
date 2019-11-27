@@ -8,21 +8,3 @@
 .fab {
   height: 30px;
 }
-
-@media (max-width: 1024px) {
-  .footer-adjustment {
-    min-height: 10vh;
-  }
-  .footerContext {
-    margin-top: 350px;
-  }
-}
-
-@media (max-width: 609px) {
-  .footer-adjustment {
-    min-height: 30vh;
-  }
-  .footerContext {
-    margin-top: 70px;
-  }
-}
