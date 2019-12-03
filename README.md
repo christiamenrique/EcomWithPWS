@@ -6,7 +6,7 @@ On this page, I am selling electronic products(tv, drones, speakers, etc..). I a
 
 # Installation
 * Open terminal.
-* git clone https://github.com/christiamenrique/EcommerceUpdate.
+* git clone https://github.com/christiamenrique/EcomWithPWS.
 * Once is clone node.js is required to operate the page. You must use npm install.
 * Before starting the application you must create a mongo database.
 * Link to the mongoDb data in the inside .env.
