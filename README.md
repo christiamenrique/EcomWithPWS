@@ -7,12 +7,12 @@ On this page, I am selling electronic products(tv, drones, speakers, etc..). I a
 # Look on Phone 
 
 ## Icon on the phone
-Show the icon of the store on a cell phone
-![Read screenshot](home.png)
+Display the icon of the store on a cell phone 
+![Read screenshot](icon.png)
 
 ## 
 This demonstrates that my front end react application was able to fetch data from my .NET backend
-![Read screenshot](icon.png)
+![Read screenshot](home.png)
 
 ## Read
 This demonstrates that my front end react application was able to fetch data from my .NET backend
