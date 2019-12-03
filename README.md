@@ -36,13 +36,13 @@ On this page, I am selling electronic products(tv, drones, speakers, etc..). I a
 # Look on Phone 
 
 ## Display the icon of the store on a cell phone 
-![Read screenshot](icon.png)
+![Read screenshot](Audits/phone/icon.png)
 
 ## Shows the Log in page on the cellphone display
-![Read screenshot](logIn.png)
+![Read screenshot](Audits/phone/logIn.png)
 
 ## Display home page on the cellphone
-![Read screenshot](home.png)
+![Read screenshot](Audits/phone/home.png)
 
 # Author
 * Christiam Hernandez
