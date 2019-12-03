@@ -35,16 +35,13 @@ On this page, I am selling electronic products(tv, drones, speakers, etc..). I a
 
 # Look on Phone 
 
-## Icon on the phone
-Display the icon of the store on a cell phone 
+## Display the icon of the store on a cell phone 
 ![Read screenshot](icon.png)
 
-## Log In Page
-Shows the Log in page on the cellphone display
+## Shows the Log in page on the cellphone display
 ![Read screenshot](logIn.png)
 
-## Home Page
-Display home page on the cellphone
+## Display home page on the cellphone
 ![Read screenshot](home.png)
 
 # Author
