@@ -4,6 +4,21 @@ The purpose of this repository it's for education and test. But the code it's be
 
 On this page, I am selling electronic products(tv, drones, speakers, etc..). I also have a contact page that allows the client to send a message and it will be saved in the database. 
 
+# Look on Phone 
+
+## Read
+This demonstrates that my front end react application was able to fetch data from my .NET backend
+![Read screenshot](home.png)
+
+## Read
+This demonstrates that my front end react application was able to fetch data from my .NET backend
+![Read screenshot](icon.png)
+
+## Read
+This demonstrates that my front end react application was able to fetch data from my .NET backend
+![Read screenshot](logIn.png)
+
+
 # Installation
 * Open terminal.
 * git clone https://github.com/christiamenrique/EcomWithPWS.
