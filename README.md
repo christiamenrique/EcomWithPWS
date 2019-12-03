@@ -33,7 +33,7 @@ On this page, I am selling electronic products(tv, drones, speakers, etc..). I a
 # Demo
 * https://ecom-with-pwd.herokuapp.com/login
 
-# Look on Phone 
+# Looks on Phone TBES (The Best Electronic Store) 
 
 ## Display the icon of the store on a cell phone 
 ![Read screenshot](Audits/phone/icon.png)
