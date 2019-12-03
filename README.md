@@ -4,21 +4,6 @@ The purpose of this repository it's for education and test. But the code it's be
 
 On this page, I am selling electronic products(tv, drones, speakers, etc..). I also have a contact page that allows the client to send a message and it will be saved in the database. 
 
-# Look on Phone 
-
-## Icon on the phone
-Display the icon of the store on a cell phone 
-![Read screenshot](icon.png)
-
-## 
-This demonstrates that my front end react application was able to fetch data from my .NET backend
-![Read screenshot](home.png)
-
-## Read
-This demonstrates that my front end react application was able to fetch data from my .NET backend
-![Read screenshot](logIn.png)
-
-
 # Installation
 * Open terminal.
 * git clone https://github.com/christiamenrique/EcomWithPWS.
@@ -47,6 +32,20 @@ This demonstrates that my front end react application was able to fetch data fro
 
 # Demo
 * https://ecom-with-pwd.herokuapp.com/login
+
+# Look on Phone 
+
+## Icon on the phone
+Display the icon of the store on a cell phone 
+![Read screenshot](icon.png)
+
+## Log In Page
+Shows the Log in page on the cellphone display
+![Read screenshot](logIn.png)
+
+## Home Page
+Display home page on the cellphone
+![Read screenshot](home.png)
 
 # Author
 * Christiam Hernandez
